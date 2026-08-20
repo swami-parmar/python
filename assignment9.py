@@ -1,2 +1,2 @@
 fav_apps = ('Instagram', 'Zomato', 'Spotify', 'WhatsApp', 'Flipkart')
-print(fav_apps)
+print( "my favourite apps :" ,fav_apps)
