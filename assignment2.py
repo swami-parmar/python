@@ -1,22 +1,32 @@
 
-# Flipkart Product Details
 
-product_name = "Boat Headphones"
-price = 1499
-is_available = True
-rating = 4.5
+playlist = ["Kesariya", "Apna Bana Le", "Tum Hi Ho", "Heeriye", "Ilahi"]
 
-# Print values and their data types
+for i in range(len(playlist)):
+    print(i + 1, playlist[i])
 
-print("Product Name:", product_name)
-print("Data Type:", type(product_name))
 
-print("Price:", price)
-print("Data Type:", type(price))
+foods = ["Pizza", "Burger", "Dosa", "Pasta", "Fries"]
 
-print("Is Available:", is_available)
-print("Data Type:", type(is_available))
+for i in range(3):
+    print(foods[i])
 
-print("Rating:", rating)
-print("Data Type:", type(rating))
 
+prices = [299, 499, 150, 1200, 350]
+
+total = 0
+
+for price in prices:
+    total = total + price
+
+print("Total cart value:", total)
+
+
+
+unread_counts = [2, 0, 15, 120, 5]
+
+for count in unread_counts:
+    if count > 99:
+        print("99+")
+    else:
+        print(count)
